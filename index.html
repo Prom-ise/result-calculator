@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result-Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <section class="container">
+        <h1 class="result">CUMULATIVE RESULT CALCULTOR</h1>
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+                <img class="height" src="Img/background.png.jpg" width="100%" alt="">
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-12 col-12">
+
+                <div class="row">
+                    <div id="warning"
+                        class="none bg-warning text-center rounded-3 p-2 mb-3 text-light mx-5 col-lg-10 col-md-10 col-sm-10 col-10">
+                        All field Required Pls!
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="mx-5 mb-2 col-lg-3 col-md-3 col-sm-2 col-2">
+                        <div class="width input-group-sm mb-3">
+                            <input id="Name" type="text" class="form-control" placeholder="Input your Name"
+                                aria-label="Input your Name" aria-describedby="basic-addon2">
+                        </div>
+                    </div>
+                    <div class="mx-5 mb-2 col-lg-3 col-md-3 col-sm-2 col-2">
+                        <div class="width input-group-sm mb-3">
+                            <input id="identify" type="number" class="form-control" placeholder="Student's ID"
+                                aria-label="Student's ID" aria-describedby="basic-addon2">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="mx-5 mb-2 col-lg-3 col-md-3 col-sm-2 col-2">
+                        <div class="width input-group-sm mb-3">
+                            <input id="Maths" type="number" class="form-control" placeholder="Mathematics"
+                                aria-label="Mathematics" aria-describedby="basic-addon2">
+                        </div>
+                    </div>
+                    <div class="mx-5 mb-2 col-lg-3 col-md-3 col-sm-2 col-2">
+                        <div class="width input-group-sm mb-3">
+                            <input id="Eng" type="number" class="form-control" placeholder="English Language"
+                                aria-label="English Language" aria-describedby="basic-addon2">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="mx-5 mb-2 col-lg-3 col-md-3 col-sm-2 col-2">
+                        <div class="width input-group-sm mb-3">
+                            <input id="Bio" type="number" class="form-control" placeholder="Biology"
+                                aria-label="Biology" aria-describedby="basic-addon2">
+                        </div>
+                    </div>
+                    <div class="mx-5 mb-2 col-lg-3 col-md-3 col-sm-2 col-2">
+                        <div class="width input-group-sm mb-3">
+                            <input id="Chm" type="number" class="form-control" placeholder="Chemistry"
+                                aria-label="Chemistry" aria-describedby="basic-addon2">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="mx-5 mb-2 col-lg-3 col-md-3 col-sm-5 col-5">
+                        <div class="width input-group-sm mb-3">
+                            <input id="Phy" type="number" class="form-control" placeholder="Physics"
+                                aria-label="Physics" aria-describedby="basic-addon2">
+                        </div>
+                    </div>
+                    <div class="mx-5 mb-2 col-lg-3 col-md-3 col-sm-5 col-5">
+                        <div class="width input-group-sm mb-3">
+                            <input id="Agric" type="number" class="form-control" placeholder="Agricultural Science"
+                                aria-label="Agricultural Science" aria-describedby="basic-addon2">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="mx-5 mb-2 col-lg-3 col-md-3 col-sm-5 col-5">
+                        <div class="width input-group-sm mb-3">
+                            <input id="Animal" type="number" class="form-control" placeholder="Animal Husbandry"
+                                aria-label="Animal Husbandry" aria-describedby="basic-addon2">
+                        </div>
+                    </div>
+                    <div class="mx-5 mb-2 col-lg-3 col-md-3 col-sm-5 col-5">
+                        <div class="width input-group-sm mb-3">
+                            <input id="Yor" type="number" class="form-control" placeholder="Yoruba">
+                        </div>
+                    </div>
+                </div>
+                <div id="show"></div>
+                <div class="d-grid row">
+                    <button onclick="calculate()" class="mx-5 col-lg-10 col-md-10 col-sm-10 col-10 btn btn-outline-dark"
+                        type="submit">Calculate</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="bootstrap-5.3.2-dist/js/bootstrap.bundle.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
